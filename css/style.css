@@ -1,0 +1,55 @@
+
+body{
+    background-image:url(../coor.jpg);
+    background-color: black;
+color: #fff;
+}
+.glass
+{   margin: 7% 15% ;
+    padding: 0 10% 3%;
+    border: 10px solid silver;
+    border-top-right-radius: 2cm;
+    border-bottom-left-radius: 2cm;
+    text-align: center;
+   
+    
+    background-position: center;
+    justify-content: center;
+    
+    
+}
+
+p
+{
+    
+    font-size: 50px;
+    justify-content: center;
+    font-family: 'Lilita One', cursive;
+
+}
+span{
+   color: rgb(160, 22, 22);
+    font-size: 50px;
+    animation: animate 1s linear infinite;
+}
+span a{
+    text-decoration: none;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+h2{
+    margin-top: 20%;
+}
+div{
+    background-color: black;
+}

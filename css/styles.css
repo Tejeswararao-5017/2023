@@ -1,0 +1,59 @@
+div{
+   /* background-image: url(../jpg.jpg);*/
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    border:15px solid gray;
+    color: white;
+    padding: 7% 15%;
+    margin: 10% 15%;
+    border-radius:2cm ;
+    font-size: 40px;
+    animation: bor 5s linear infinite ;
+    
+}
+
+@keyframes bor{
+    0%{
+        border: 10px solid rgb(187, 36, 36)(155, 38, 38);
+    }
+    15%{
+        border: 10px solid rgb(0, 9, 128);
+    }
+    25%{
+        border: 10px solid rgb(140, 240, 10);
+    }
+    60%{
+        border: 10px solid gray;
+    }
+    100%{
+        border: 10px solid palevioletred;
+    }
+    
+
+}
+body{
+    background-image: url(../mix.jpg);
+    background-color: black;
+}
+
+.last
+{
+    animation: last 2s ease-in-out infinite;
+}
+@keyframes last{
+    0%{
+       
+        color: rgb(117, 12, 12);
+    } 20%{
+
+        color: rgb(17, 95, 148);
+    } 60%{
+
+        color: rgba(187, 176, 16, 0.801);
+    }
+    100%{
+
+        color: rgb(188, 201, 200)
+    }
+}
